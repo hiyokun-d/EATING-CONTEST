@@ -41,7 +41,7 @@ function visual() {
     addHealth = 25
   }
 
-  if (player.health && !isDied) {
+  if (player.health <= 0 && !isDied) {
     isDied = true
     alert("MAAAN THAT'S WAS CLOSE")
   }
